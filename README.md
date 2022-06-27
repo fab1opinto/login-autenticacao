@@ -2,7 +2,8 @@
 
 Projeto hospedado em domínio gratuito para testes: https://portteste.000webhostapp.com/index.php <br />
 Criptografia de senhas com o padrão md5. <br />
-Retorno a página inicial se o e-mail não estiver cadastrado no banco de dados. <br />
+Retorno a página inicial index.php se o e-mail não estiver cadastrado no banco de dados. <br />
+Retorno a página inicial index.php ao tentar acessar a página de autenticação home.php no navegador.
 Mensagem de erro se e-mail ou senha estiverem incorretos ou não cadastrados no banco de dados.
 <hr>
 
