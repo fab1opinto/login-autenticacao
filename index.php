@@ -47,6 +47,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
                 <div class="field-cadastrar">
                     <input type="submit" id="btn_login" value="ENTRAR">
                 </div>
+                <br />
                 <?php
                 if($erro == 1){
                     echo '<font color="#FF0000">e-mail ou senha inválidos</font>';

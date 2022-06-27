@@ -1,3 +1,9 @@
+<?php
+ 
+$erro_email = isset($_GET['email']) ? $_GET['erro_email'] : 0;
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,6 +31,11 @@
                 <div class="field">
                     <span class="fa fa-user"></span>
                     <input type="text" name="email" id="campo_email" placeholder="Digite seu email">
+                    <?php
+                    if($erro_email){
+                        echo '<font style="color:#FF0000">E-mail já existe</font>';
+                    }
+                    ?>
                 </div>
 
                 <div class="field space">
@@ -38,6 +49,10 @@
                 </div>
 
             </form>
+            <br />
+            <div class="cadastrese">
+            <a href="index.php">Voltar</a>
+            </div>
         </div>
     </div>
 

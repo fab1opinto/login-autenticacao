@@ -35,15 +35,16 @@ if($email_existe){
     }
 
     header ('Location: cadastrese.php?'. $retorno_get);
+    die();
 }
 
-die();
 
 $sql = "INSERT INTO usuarios(email, senha) VALUES ('$email', '$senha')";
 
 //Executar a query
 if(mysqli_query($link,$sql)){
     echo 'Usuário registrado com sucesso!';
+    header ('Location: index.php');
 } else {
     echo 'Erro ao registrar usuário';
 }
