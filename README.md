@@ -1,7 +1,7 @@
 # Tela de Login com autenticação e tela de cadastro de email e senha.
 
 Projeto hospedado em domínio gratuito para testes: https://portteste.000webhostapp.com/index.php <br />
-Criptografia de senha com o padrão md5. <br />
+Criptografia de senhas com o padrão md5. <br />
 Retorno a página inicial se o e-mail não estiver cadastrado no banco de dados. <br />
 Mensagem de erro se e-mail ou senha estiverem incorretos ou não cadastrados no banco de dados.
 <hr>
